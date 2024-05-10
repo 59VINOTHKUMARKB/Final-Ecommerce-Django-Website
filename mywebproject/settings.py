@@ -1,7 +1,5 @@
 import os
 from pathlib import Path
-import os
-import django
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -11,8 +9,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-# Set the APPEND_SLASH setting to True (default) to append slashes to URLs
-APPEND_SLASH = True
 
 INSTALLED_APPS = [
     'django.contrib.admin',
